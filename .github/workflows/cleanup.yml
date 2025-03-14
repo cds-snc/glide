@@ -8,7 +8,7 @@ on:
 jobs:
   cleanup:
     name: Cleanup Test Database
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
 
     permissions:
       id-token: write
@@ -38,7 +38,7 @@ jobs:
 
   destroy-preview-env:
     name: Destroy Preview Environment
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
 
     permissions:
       id-token: write
